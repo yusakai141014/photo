@@ -12,14 +12,14 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(60E888A3-0DE5-4F1E-840E-6781FCB45674.JPG);
+  background-image: url(top.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -85,9 +85,8 @@ header {
 }
 
 .logo {
-  width: 40px;
-  margin-top: 13px;
-  
+  width: 45px;
+  margin-top: 11px;
 }
 
 .header-left {
@@ -96,13 +95,16 @@ header {
 
 .header-right {
   float: right;
+  margin-right: -25px;
 }
 
-.header-right h1{
+.header-right a {
   line-height: 65px;
+  padding: 0 25px;
   color: white;
-  font-size: 10px;
-  display: inline;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right a:hover {
@@ -110,12 +112,12 @@ header {
 }
 
 .lesson-wrapper {
+  height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
-  width: 50%
 }
 
 .heading {
@@ -130,12 +132,12 @@ header {
 
 .lesson {
   float: left;
-  width: 600px;
-  
+  width: 25%;
 }
 
 .photo{
-  width: 50%;
+  width: 80%;
+  height: 180px
 }
 
 .lesson-icon {
@@ -181,7 +183,7 @@ header {
 }
 
 footer img {
-  width: 50px;
+  width: 60px;
 }
 
 footer p {
@@ -233,6 +235,7 @@ footer {
 
 @media all and (max-width: 670px) {
   .header-right {
+    display: none;
   }
 
   .menu-icon {
@@ -270,4 +273,3 @@ footer {
   .message-wrapper .btn {
     width: 100%;
   }
-}
