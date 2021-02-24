@@ -134,6 +134,10 @@ header {
   
 }
 
+.photo{
+  width: 50%;
+}
+
 .lesson-icon {
   position: relative;
 }
